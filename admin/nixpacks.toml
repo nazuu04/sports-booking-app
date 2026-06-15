@@ -2,4 +2,4 @@
 cmds = []
 
 [start]
-cmd = "php -S 0.0.0.0:$PORT -t admin/"
+cmd = "php -S 0.0.0.0:$PORT"
