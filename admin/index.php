@@ -46,7 +46,7 @@
         <div class="pilihan-text"><p>Masuk sebagai Pelanggan</p><span>Login dan booking lapangan</span></div>
         <i class="ti ti-chevron-right arrow"></i>
     </a>
-    <div class="divider"><hr><span>BELUM PUNYA AKUN YA? BUAT DULU DONG MWAHH </span><hr></div>
+    <div class="divider"><hr><span>BELUM PUNYA AKUN? DAFTAR SEKARANG </span><hr></div>
     <a href="register.php" class="pilihan">
         <div class="pilihan-icon" style="background:#0f150a"><i class="ti ti-user-plus" style="color:#97C459"></i></div>
         <div class="pilihan-text"><p>Daftar Akun Baru</p><span>Buat akun pelanggan baru</span></div>
