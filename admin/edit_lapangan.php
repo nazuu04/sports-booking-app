@@ -87,6 +87,7 @@ if(isset($_POST['update'])){
                     <div class="jenis-card <?= $d['jenis_olahraga']=='Basket'?'selected':'' ?>" onclick="pilihJenis(this,'Basket')"><i class="ti ti-ball-basketball"></i><span>Basket</span></div>
                     <div class="jenis-card <?= $d['jenis_olahraga']=='Voli'?'selected':'' ?>" onclick="pilihJenis(this,'Voli')"><i class="ti ti-ball-volleyball"></i><span>Voli</span></div>
                     <div class="jenis-card <?= $d['jenis_olahraga']=='Padel'?'selected':'' ?>" onclick="pilihJenis(this,'Padel')"><i class="ti ti-tennis"></i><span>Padel</span></div>
+                    <div class="jenis-card <?= $d['jenis_olahraga']=='Tennis'?'selected':'' ?>" onclick="pilihJenis(this,'Tennis')"><i class="ti ti-tennis"></i><span>Tennis</span></div>
                 </div>
             </div>
             <div class="mb-4">
