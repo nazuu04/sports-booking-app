@@ -24,14 +24,35 @@ if(isset($_POST['login'])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #080f0a; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
+         body{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('images/background.jpg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
         .wrap { width: 100%; max-width: 400px; padding: 1.5rem; }
         .header { text-align: center; margin-bottom: 2rem; }
         .logo { width: 64px; height: 64px; background: linear-gradient(135deg, #1D9E75, #085041); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
         .logo i { font-size: 30px; color: #fff; }
         .header h2 { font-size: 20px; font-weight: 500; color: #e0ffe8; margin-bottom: 4px; }
         .header p { font-size: 13px; color: #2a4030; }
-        .card-form { background: #0d1810; border: 1px solid #152010; border-radius: 16px; padding: 1.75rem; }
+         .card-form{
+    background: rgba(13,24,16,0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid #152010;
+    border-radius: 16px;
+    padding: 1.75rem;
+}
         .form-label { font-size: 13px; font-weight: 500; color: #5DCAA5; display: block; margin-bottom: 6px; }
         .input-wrap { position: relative; margin-bottom: 1.25rem; }
         .input-wrap i { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 17px; color: #1a3020; pointer-events: none; }
