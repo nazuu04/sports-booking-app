@@ -27,7 +27,7 @@ if(isset($_POST['login'])){
          body{
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('images/background.jpg.jpg');
+    url('images/background.jpg');
 
     background-size: cover;
     background-position: center;
