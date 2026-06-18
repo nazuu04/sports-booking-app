@@ -33,8 +33,8 @@ $pending = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM booking WHERE statu
 }
         .sidebar { position: fixed; left: 0; top: 0; height: 100vh; width: 220px; background: #0a1410; border-right: 1px solid #152010; display: flex; flex-direction: column; padding: 1.5rem 0; }
         .sidebar-brand { padding: 0 1.25rem 1.5rem; border-bottom: 1px solid #152010; }
-        .sidebar-brand h5 { font-size: 15px; font-weight: 500; color: #c0eecb; }
-        .sidebar-brand small { color: #2a4030; font-size: 12px; }
+        .sidebar-brand h5 { font-size: 15px; font-weight: 500; color: #ffffff; }
+        .sidebar-brand small { color: #f5f5f5; font-size: 14px; }
         .nav-item { display: flex; align-items: center; gap: 10px; padding: 10px 1.25rem; font-size: 14px; color: #2a4030; text-decoration: none; }
         .nav-item:hover { background: #0d1810; color: #5DCAA5; }
         .nav-item.active { color: #1D9E75; background: #0d1f12; font-weight: 500; }

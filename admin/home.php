@@ -45,12 +45,6 @@ $nama_user = $_SESSION['user_nama'];
 </head>
 <body>
 <div class="navbar">
-    <a class="navbar-brand" href="home.php"><i class="ti ti-ball-football"></i> Sports Booking</a>
-    <div class="d-flex align-items-center gap-3">
-        <div class="user-chip">
-            <div class="avatar"><?= strtoupper(substr($nama_user,0,1)) ?></div>
-            <?= $nama_user ?>
-        </div>
         <a href="logout_user.php" class="btn-logout"><i class="ti ti-logout" style="font-size:15px"></i> Logout</a>
     </div>
 </div>
