@@ -25,7 +25,22 @@ if(isset($_POST['daftar'])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #080f0a; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; padding: 1.5rem 0; }
+           body{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('images/background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
         .wrap { width: 100%; max-width: 420px; padding: 1.5rem; }
         .header { text-align: center; margin-bottom: 2rem; }
         .logo { width: 64px; height: 64px; background: linear-gradient(135deg, #1D9E75, #085041); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }

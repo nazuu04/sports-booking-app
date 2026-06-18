@@ -15,7 +15,22 @@ $pending = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM booking WHERE statu
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #080f0a; font-family: sans-serif; }
+           body{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('images/background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
         .sidebar { position: fixed; left: 0; top: 0; height: 100vh; width: 220px; background: #0a1410; border-right: 1px solid #152010; display: flex; flex-direction: column; padding: 1.5rem 0; }
         .sidebar-brand { padding: 0 1.25rem 1.5rem; border-bottom: 1px solid #152010; }
         .sidebar-brand h5 { font-size: 15px; font-weight: 500; color: #c0eecb; }
