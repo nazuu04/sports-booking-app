@@ -14,7 +14,7 @@ $nama_user = $_SESSION['user_nama'];
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-         body{
+    body{
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url('images/background.jpg');
