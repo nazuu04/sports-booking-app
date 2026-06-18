@@ -6,27 +6,157 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #080f0a; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
-        .wrap { width: 100%; max-width: 400px; padding: 1.5rem; }
-        .header { text-align: center; margin-bottom: 2.5rem; }
-        .logo { width: 76px; height: 76px; background: linear-gradient(135deg, #1D9E75, #085041); border-radius: 24px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem; }
-        .logo i { font-size: 38px; color: #fff; }
-        .header h2 { font-size: 24px; font-weight: 500; color: #e0ffe8; margin-bottom: 6px; }
-        .header p { font-size: 11px; color: #1D9E75; letter-spacing: 0.1em; text-transform: uppercase; }
-        .badge-custom { display: inline-block; background: #0d1f12; color: #1D9E75; font-size: 10px; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px; letter-spacing: 0.08em; border: 1px solid #152e1a; }
-        .pilihan { background: #0d1810; border: 1px solid #152010; border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 10px; display: flex; align-items: center; gap: 12px; text-decoration: none; transition: all 0.2s; }
-        .pilihan:hover { border-color: #1D9E75; background: #0f1f13; }
-        .pilihan-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-        .pilihan-icon i { font-size: 20px; }
-        .pilihan-text p { font-size: 14px; font-weight: 500; color: #c0eecb; margin-bottom: 2px; }
-        .pilihan-text span { font-size: 12px; color: #2a4030; }
-        .arrow { margin-left: auto; color: #1a2e20; font-size: 18px; }
-        .divider { display: flex; align-items: center; gap: 10px; margin: 1rem 0; }
-        .divider hr { flex: 1; border: none; border-top: 1px solid #111f14; }
-        .divider span { font-size: 11px; color: #1D9E75; }
-        .footer { text-align: center; margin-top: 2rem; font-size: 11px; color: #1a2e20; }
-    </style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('images/background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 400px;
+    padding: 1.5rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.logo {
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(135deg, #1D9E75, #085041);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.25rem;
+}
+
+.logo i {
+    font-size: 38px;
+    color: #fff;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #e0ffe8;
+    margin-bottom: 6px;
+}
+
+.header p {
+    font-size: 11px;
+    color: #1D9E75;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.badge-custom {
+    display: inline-block;
+    background: rgba(13,31,18,0.85);
+    color: #1D9E75;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.08em;
+    border: 1px solid #152e1a;
+}
+
+.pilihan {
+    background: rgba(13,24,16,0.85);
+    border: 1px solid #152010;
+    border-radius: 14px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.pilihan:hover {
+    border-color: #1D9E75;
+    background: rgba(15,31,19,0.95);
+}
+
+.pilihan-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.pilihan-icon i {
+    font-size: 20px;
+}
+
+.pilihan-text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #c0eecb;
+    margin-bottom: 2px;
+}
+
+.pilihan-text span {
+    font-size: 12px;
+    color: #9cb3a3;
+}
+
+.arrow {
+    margin-left: auto;
+    color: #1D9E75;
+    font-size: 18px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.divider span {
+    font-size: 11px;
+    color: #1D9E75;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 11px;
+    color: #b7c8bc;
+}
+</style>
 </head>
 <body>
 <div class="wrap">
