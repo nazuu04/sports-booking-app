@@ -14,7 +14,22 @@ $nama_user = $_SESSION['user_nama'];
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #080f0a; font-family: sans-serif; }
+         body{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('images/background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
         .navbar { background: #0a1410; border-bottom: 1px solid #152010; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 10; }
         .navbar-brand { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 500; color: #c0eecb; text-decoration: none; }
         .navbar-brand i { font-size: 22px; color: #1D9E75; }
