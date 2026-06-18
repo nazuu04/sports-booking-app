@@ -177,12 +177,12 @@ $nama_user = $_SESSION['user_nama'];
 <div class="main">
 
     <div class="hero">
-        <div>
-            <h2>Selamat Datangx👋</h2>
-            <p>Mau olahraga hari ini? Yuk booking lapangan sekarang!</p>
-        </div>
-        <i class="ti ti-ball-football"></i>
+    <div>
+        <h2>Selamat Datang, <?= $nama_user ?>! 👋</h2>
+        <p>Mau olahraga hari ini? Yuk booking lapangan sekarang!</p>
     </div>
+    <i class="ti ti-ball-football"></i>
+</div>
 
     <div class="section-title">
         Lapangan Tersedia
