@@ -8,6 +8,7 @@ if(!isset($_SESSION['user_login'])){
 include "koneksi.php";
 
 $lapangan = mysqli_query($conn, "SELECT * FROM lapangan");
+$nama_user = $_SESSION['user_nama'];
 ?>
 
 <!DOCTYPE html>
@@ -177,7 +178,7 @@ $lapangan = mysqli_query($conn, "SELECT * FROM lapangan");
 
     <div class="hero">
         <div>
-            <h2>Selamat Datang 👋</h2>
+            <h2>Selamat Datangx👋</h2>
             <p>Mau olahraga hari ini? Yuk booking lapangan sekarang!</p>
         </div>
         <i class="ti ti-ball-football"></i>
