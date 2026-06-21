@@ -2,21 +2,10 @@
 $conn = mysqli_connect(
     "mysql.railway.internal",
     "root",
-    "SHINynRhwJSQpAiEyXlidoVGhMxKFYIX",
+    "GANTI_DENGAN_PASSWORD_BARU_KAMU",
     "railway"
 );
 
-if(!$conn){
-    die("Koneksi gagal");
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
 }
-$conn = mysqli_connect(
-    "mysql.railway.internal",
-    "root",
-    "SHINynRhwJSQpAiEyXlidoVGhMxKFYIX",
-    "railway"
-);
-
-if(!$conn){
-    die("Koneksi gagal");
-}
-?>
