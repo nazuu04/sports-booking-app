@@ -2,7 +2,7 @@
 $conn = mysqli_connect(
     "mysql.railway.internal",
     "root",
-    "GANTI_DENGAN_PASSWORD_BARU_KAMU",
+    "SHINynRhwJSQpAiEyXlidoVGhMxKFYIX",
     "railway"
 );
 
